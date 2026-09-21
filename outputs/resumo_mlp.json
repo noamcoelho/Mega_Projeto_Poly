@@ -1,0 +1,25 @@
+{
+  "melhor_config": {
+    "n_layers": 4,
+    "n_units": 256,
+    "activation": "relu",
+    "learning_rate": 0.00039396634101669957,
+    "batch_size": 256,
+    "optimizer": "rmsprop",
+    "patience": 3,
+    "dropout": 0.3
+  },
+  "origem": "TPE (Optuna)",
+  "f1_cv": 0.6802459425870285,
+  "limiar_otimo": 0.4099999999999999,
+  "metricas_teste": {
+    "Acurácia": 0.8331869032976044,
+    "Acurácia balanceada": 0.76509588877959,
+    "Precisão (classe 1)": 0.7416879795396419,
+    "Revocação (classe 1)": 0.6120726044744618,
+    "F1 (classe 1)": 0.6706753006475485,
+    "F1 macro": 0.779490132871425,
+    "ROC-AUC": 0.8941263085561836,
+    "PR-AUC": 0.7732106554341467
+  }
+}

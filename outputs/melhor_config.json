@@ -1,0 +1,14 @@
+{
+  "config": {
+    "n_layers": 4,
+    "n_units": 256,
+    "activation": "relu",
+    "learning_rate": 0.00039396634101669957,
+    "batch_size": 256,
+    "optimizer": "rmsprop",
+    "patience": 3,
+    "dropout": 0.3
+  },
+  "origem": "TPE (Optuna)",
+  "f1_cv": 0.6802459425870285
+}
